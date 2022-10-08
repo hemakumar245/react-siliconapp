@@ -1,0 +1,167 @@
+/*INNER PAGES
+--------------------------*/
+.pagewrapper-background .pagewrapper-overlay {
+    color: #FFFFFF;
+    background: rgba(35, 31, 32, 0.7);
+
+    .page-top-section {
+        padding: 8rem 0;
+
+        .page-title {
+            .section-title {
+                font-size: 80px;
+            }
+
+            p {
+                color: #FFFFFF;
+                font-family: 'Nunito-Regular';
+                letter-spacing: 0.1em;
+                font-size: 17px;
+                font-weight: 700;
+            }
+
+        }
+
+        h3 {
+            font-family: 'Adam-Cg-Pro'
+        }
+    }
+}
+
+/* ShoppingPage Styles
+----------------------*/
+.pagewrapper-background.shopping {
+    background: url('../../assets/images/building.png') no-repeat;
+    background-size: cover;
+    background-size: center;
+
+    .pagewrapper-overlay .page-top-section {
+        padding: 7.5rem 0;
+    }
+}
+
+.gallery {
+    .fas.fa-th-large {
+        border: 2px solid #000;
+        padding: 0.15rem;
+        color: #000000;
+    }
+
+    .fas.fa-bars {
+        color: #000000;
+        font-size: 23px;
+    }
+}
+
+/*Dining Page styles
+--------------------------*/
+.pagewrapper-background.dining {
+    background: url('../../assets/images/diningbg.png') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/*Offices page styles
+-------------------------*/
+.pagewrapper-background.offices {
+    background: url('../../assets/images/flexible-bg.png') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.find-office-bg {
+    background: #000;
+    text-align: center;
+
+    h3 {
+        padding: 2rem 6rem;
+        color: #fff;
+        line-height: 1.25em;
+        font-size: 24px;
+        font-family: 'Adam-Cg-Pro';
+    }
+
+}
+
+@media (max-width:767px) {
+    .find-office-bg h3 {
+        padding: 2rem 0;
+    }
+
+}
+
+.find-offices-list .card.content.gray-bg {
+    background-color: #A3A3A3;
+}
+
+/*Gallery filter
+----------------------------*/
+
+/* Create three equal columns that floats next to each other */
+.column {
+    display: none;
+    /* Hide all elements by default */
+}
+
+/* Clear floats after rows */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Content */
+.filter-card {
+    padding: 3.9rem .5rem !important;
+}
+
+.content {
+    background-color: #F8F8F8;
+    padding: 10px;
+}
+
+.content img {
+    opacity: 0.7;
+    filter: opacity(0.7);
+}
+
+/* The "show" class is added to the filtered elements */
+.show {
+    display: block;
+}
+
+/* Style the buttons */
+.gallery #gallery-list .btn {
+    border: none;
+    outline: none;
+    padding: 0 10px;
+    background-color: #FFFFFF;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-size: 14px;
+    border-radius: 0;
+    font-family: 'Adam-Cg-Pro';
+    letter-spacing: 0.05em;
+    color: #231F20;
+}
+
+.gallery #gallery-list .btn:focus {
+    box-shadow: 0 0 0 0.2rem rgba(251, 252, 253, 0.25);
+}
+
+.gallery #gallery-list .btn.active {
+    border: 1px solid #231F20;
+    color: #231F20;
+}
+
+.gallery #gallery-list .btn:last-child {
+    background: #000;
+    color: #FFFFFF;
+}
+
+
+@media (max-width: 1199.98px) {
+    .page-top-section .page-title .section-title {
+        font-size: 2rem !important;
+    }
+}
